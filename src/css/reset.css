@@ -27,6 +27,14 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+button, [type="button"], [type="submit"], a {
+  cursor: pointer;
+}
+
+p, span, div {
+  cursor: default;
+}
+
 body {
   line-height: 1.5;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
